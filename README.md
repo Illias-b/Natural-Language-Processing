@@ -1,46 +1,45 @@
-# Semantic Analysis of Survey Data
+# NPS Survey Semantic Analysis
 
 ## Overview
-This repository contains the analysis of survey data focused on semantic analysis. The objective is to understand the sentiments and topics prevalent in the survey responses, particularly focusing on "disconnect-reconnect" events in customer experiences.
+This repository contains a detailed semantic analysis of a Net Promoter Score (NPS) survey. The survey comprises three main components: the NPS score (ranging from 0 to 10), reasons for the given scores, and suggestions for improvements.
 
 ## Methodology
 The analysis involves the following steps:
-1. Data Preprocessing: Cleaning and tokenizing the text data.
-2. Topic Modeling: Using the GSDMM (Gibbs Sampling Dirichlet Mixture Model) to identify topics within the survey responses.
-3. Coherence Scoring: Evaluating the quality of the topics identified.
+1. **Data Preprocessing**: Cleaning and tokenizing the text data from 'Reason' and 'Improvement' columns.
+2. **Topic Modeling**: Using Gibbs Sampling Dirichlet Mixture Model (GSDMM) to identify prevalent topics within the survey responses.
+3. **Coherence Scoring**: Evaluating the quality of the identified topics.
+4. **Visualization**: Generating word clouds and bar charts for visual representation of the results.
 
 ## Tools Used
-- Python Libraries: Pandas, NLTK, Gensim, Matplotlib
-- Data: The dataset used is `Score_Alldata.csv`.
+- **Python Libraries**: Pandas for data manipulation, NLTK for text processing, Gensim for topic modeling, and Matplotlib for visualization.
+- **Data**: Analysis conducted on `Score_Alldata.csv`.
 
-## Analysis
-The analysis is divided into two main parts based on the survey questions - 'Reason' and 'Improvement'.
+## Analysis and Results
+The survey responses are categorized based on the NPS score into three categories: '0-6', '7-8', and '9-10'. Each category is analyzed separately for both 'Reason' and 'Improvement' columns.
 
 ### Reason Column Analysis
-- Objective: To analyze the main reasons for customers' scores.
-- Process: The text data from the 'Reason' column is preprocessed and analyzed using GSDMM for topic modeling.
-
-#### Results for Score Category: 0-6
-- Top Words: 'signal', 'poor', 'good', 'network', 'service'
-- Coherence Score: 0.4059
-- ![Word Cloud for Score Category 0-6](link-to-wordcloud-0-6.jpg)
-- ![Bar Chart for Score Category 0-6](link-to-barchart-0-6.jpg)
-
-(Continue with other score categories)
+- **Objective**: To understand the primary reasons behind the scores given by customers.
+- **Process**: Applying GSDMM to the preprocessed data from the 'Reason' column.
+- **Results**:
+  - **Score Category: 0-6**
+    - Top Words: 'signal', 'poor', 'good', 'network', 'service'
+    - Coherence Score: 0.4059
+    - ![Word Cloud for Score Category 0-6](link-to-wordcloud-reason-0-6.jpg)
+    - ![Bar Chart for Score Category 0-6](link-to-barchart-reason-0-6.jpg)
+  - (Continue with other score categories)
 
 ### Improvement Column Analysis
-- Objective: To identify areas for improvement based on customer feedback.
-- Process: Similar to the 'Reason' column, the 'Improvement' column data is processed and analyzed.
-
-#### Results for Score Category: 0-6
-- Top Words: 'improve', 'better', 'signal', 'coverage', 'service'
-- Coherence Score: 0.5326
-- ![Word Cloud for Score Category 0-6](link-to-wordcloud-improvement-0-6.jpg)
-- ![Bar Chart for Score Category 0-6](link-to-barchart-improvement-0-6.jpg)
-
-(Continue with other score categories)
+- **Objective**: To identify areas of improvement as suggested by customers.
+- **Process**: Similar analysis is performed on the 'Improvement' column.
+- **Results**:
+  - **Score Category: 0-6**
+    - Top Words: 'improve', 'better', 'signal', 'coverage', 'service'
+    - Coherence Score: 0.5326
+    - ![Word Cloud for Score Category 0-6 Improvement](link-to-wordcloud-improvement-0-6.jpg)
+    - ![Bar Chart for Score Category 0-6 Improvement](link-to-barchart-improvement-0-6.jpg)
+  - (Continue with other score categories)
 
 ## Conclusion
-The analysis provides insights into customer sentiment and highlights key areas for improvement. This information can be instrumental in enhancing customer service and addressing specific concerns.
+This semantic analysis of the NPS survey provides valuable insights into customer sentiments and perceptions, highlighting key areas for improvement and understanding customer satisfaction drivers.
 
-(Note: Replace the link placeholders with actual URLs to your word clouds and bar charts. This will visually complement your findings.)
+(Note: Replace the link placeholders with actual URLs to your word clouds and bar charts to visually support your findings.)
