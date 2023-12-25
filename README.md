@@ -18,7 +18,7 @@ The code for this project is divided into several key parts, each responsible fo
 
 The main script `nps_analysis.py` contains the full code used for this analysis. Additional utility scripts may be included for specific tasks like data cleaning or visualization.
 
-[View the Jupyter Notebook](link-to-jupyter-notebook)
+[View the Jupyter Notebook](https://github.com/Illias-b/NPS-Survey-Code.git)
 
 ## Overall Summary and Suggestions
 
