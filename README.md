@@ -12,11 +12,14 @@ The analysis involves data preprocessing, topic modeling using Gibbs Sampling Di
 
 ## Code Description
 The code for this project is divided into several key parts, each responsible for a stage in the analysis process:
-1. **Data Preprocessing**: Cleaning and tokenizing text data.
-2. **Topic Modeling**: Applying GSDMM for identifying topics within survey responses.
-3. **Visualization**: Generating word clouds and bar charts to visualize the findings.
 
-The main script `nps_analysis.py` contains the full code used for this analysis. Additional utility scripts may be included for specific tasks like data cleaning or visualization.
+1. **Data Preprocessing**: Cleaning and tokenising text data. This step is crucial as it prepares the raw survey text, removing any noise and irrelevant information. Tokenisation is particularly important because it breaks down the text into individual elements or 'tokens'. This makes the data more manageable and enables the model to more effectively analyze and understand the language patterns and sentiments in the responses.
+
+2. **Topic Modeling**: Applying GSDMM for identifying topics within survey responses. We chose GSDMM specifically because it excels in analysing short texts, less than 50 words which is typical in surveys. This model helps in accurately extracting themes and sentiments from concise responses, providing a deeper understanding of the underlying topics in the survey data.
+
+3. **Visualisation**: Generating word clouds and bar charts to visualise the findings. This step is important for presenting the results in an intuitive and easily interpretable manner. Visualisations like word clouds and bar charts help in quickly grasping the key themes and the frequency of various terms, making the data accessible to a wider audience, including those without a technical background.
+
+Each of these steps plays a vital role in transforming raw survey data into meaningful insights, enabling us to understand customer opinions and preferences better.
 
 [View the Jupyter Notebook](https://github.com/Illias-b/NPS-Survey-Code.git)
 
