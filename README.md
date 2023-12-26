@@ -17,7 +17,7 @@ The code for this project is divided into several key parts, each responsible fo
 
 2. **Topic Modeling**: Applying GSDMM for identifying topics within survey responses. We chose GSDMM specifically because it excels in analysing short texts, less than 50 words which is typical in surveys. This model helps in accurately extracting themes and sentiments from concise responses, providing a deeper understanding of the underlying topics in the survey data.
 
-3. **Visualization**: Generating word clouds and bar charts to visualize the findings. These visualizations are essential for intuitively presenting the results. For instance, the word cloud below illustrates the most frequently mentioned terms in one of the survey categories, providing a quick visual representation of key themes.
+3. **Visualization**: Generating word clouds and bar charts to visualize the findings. These visualizations are essential for presenting the results in a way that is easily understandable, even for those with a non-technical background. For example, the word cloud below shows the most frequently mentioned terms in one of the survey categories, offering a quick and intuitive visual representation of key themes.
 
 ![Example Word Cloud](https://github.com/Illias-b/Semantic-Analysis/assets/33836566/fe87d39e-482a-403d-9c56-945eee8eb874)
 
