@@ -1,4 +1,4 @@
-# NPS Survey Semantic Analysis
+# Semantic Analysis on NPS Survey 
 
 ## Overview
 This repository contains a semantic analysis of a Net Promoter Score (NPS) survey, focusing on survey scores, reasons for the scores, and suggestions for improvements.
