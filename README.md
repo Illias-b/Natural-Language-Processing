@@ -13,9 +13,9 @@ The analysis involves data preprocessing, topic modeling using Gibbs Sampling Di
 ## Code Description
 The code for this project is divided into several key parts, each responsible for a stage in the analysis process:
 
-1. **Data Preprocessing**: Cleaning and tokenising text data. This step is crucial as it prepares the raw survey text, removing any noise and irrelevant information. Tokenisation is particularly important because it breaks down the text into individual elements or 'tokens'. This makes the data more manageable and enables the model to more effectively analyze and understand the language patterns and sentiments in the responses.
+1. **Data Preprocessing**: Cleaning and tokenising text data. This step is crucial as it prepares the raw survey text, removing any noise and irrelevant information. Tokenisation is particularly important because it breaks down the text into individual elements or 'tokens'. This makes the data more manageable and enables the model to more effectively analyse and understand the language patterns and sentiments in the responses.
 
-2. **Topic Modeling**: Applying GSDMM for identifying topics within survey responses. We chose GSDMM specifically because it excels in analysing short texts less than 50 words, which is typical in surveys. This model helps in accurately extracting themes and sentiments from concise responses, providing a deeper understanding of the underlying topics in the survey data.
+2. **Topic Modeling**: Applying GSDMM for identifying topics within survey responses. We chose GSDMM specifically because it excels in analysing short texts less than 50 words, which is typical in this survey setting. This model helps in accurately extracting themes and sentiments from concise responses, providing a deeper understanding of the underlying topics in the survey data.
 
 3. **Visualisation**: Generating word clouds and bar charts to visualise the findings. These visualisations are essential for presenting the results in a way that is easily understandable, even for those with a non-technical background. For example, the word cloud below shows the most frequently mentioned terms in one of the survey categories, offering a quick and intuitive visual representation of key themes.
 
@@ -38,8 +38,11 @@ Based on our analysis, we've uncovered key insights into what drives customer sa
 1. **Improve Network Services**: Prioritise upgrading signal strength and network coverage.
 2. **Maintain High-Quality Customer Service**: Continue investing in customer service to keep satisfaction levels high.
 3. **Communicate Proactively**: Inform customers about improvements being made in response to their feedback.
-4. **Deepen Analysis**: Conduct a more detailed analysis of feedback for specific insights.
+4. **Deepen Analysis**: Enhance the analysis of survey feedback using advanced techniques.
+   - **Data Integration**: Merge NPS data with other customer information like purchase history and service interactions for comprehensive insights.
+   - **Text Mining and Sentiment Analysis**: Apply text mining on open-ended responses and use sentiment analysis to uncover underlying emotions and viewpoints.
+   - **Predictive Analytics**: Utilise machine learning to predict future trends and behaviors based on current NPS data, identifying potential areas of focus.
 5. **Customer Engagement**: Reach out to respondents for more in-depth feedback, especially those who gave lower scores.
-6. **Regular Monitoring**: Continuously analyse customer feedback to track changes in sentiments and effectiveness of implemented improvements.
+
 
 By addressing these areas, we aim to enhance overall customer satisfaction and loyalty.
