@@ -43,6 +43,3 @@ Based on our analysis, we've uncovered key insights into what drives customer sa
    - **Text Mining and Sentiment Analysis**: Apply text mining on open-ended responses and use sentiment analysis to uncover underlying emotions and viewpoints.
    - **Predictive Analytics**: Utilise machine learning to predict future trends and behaviors based on current NPS data, identifying potential areas of focus.
 5. **Customer Engagement**: Reach out to respondents for more in-depth feedback, especially those who gave lower scores.
-
-
-By addressing these areas, we aim to enhance overall customer satisfaction and loyalty.
