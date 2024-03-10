@@ -3,6 +3,8 @@
 ## Overview
 This repository contains a semantic analysis of a Net Promoter Score (NPS) survey, focusing on survey scores, reasons for the scores, and suggestions for improvements.
 
+[View the Jupyter Notebook](https://github.com/Illias-b/NPS-Survey-Code.git)
+
 ## Methodology
 The analysis involves data preprocessing, topic modeling using Gibbs Sampling Dirichlet Mixture Model (GSDMM), coherence scoring, and visualization.
 
@@ -21,10 +23,7 @@ The code for this project is divided into several key parts, each responsible fo
 
 ![Example Word Cloud](https://github.com/Illias-b/Semantic-Analysis/assets/33836566/fe87d39e-482a-403d-9c56-945eee8eb874)
 
-
 Each of these steps plays a vital role in transforming raw survey data into meaningful insights, enabling us to understand customer opinions and preferences better.
-
-[View the Jupyter Notebook](https://github.com/Illias-b/NPS-Survey-Code.git)
 
 ## Overall Summary and Suggestions
 
